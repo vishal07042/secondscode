@@ -17,6 +17,7 @@ int hours=randominteger/3600;
 //    minutes/60;
     printf("%i",minutes1);
     printf("minutes\n");
+     printf(" and\n");
 
     int seconds=minutes%60;
     printf("%i",seconds);
