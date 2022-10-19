@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+   int randominteger;
+    printf("enter seconds randomly");
+    scanf("%i",&randominteger);
+
+
+int hours=randominteger/3600;
+    printf("%i",hours);
+    printf("hours\n");
+
+
+
+    int minutes=randominteger%3600;
+    int minutes1=minutes/60;
+//    minutes/60;
+    printf("%i",minutes1);
+    printf("minutes\n");
+
+    int seconds=minutes%60;
+    printf("%i",seconds);
+    printf("seconds");
+
+
+}
